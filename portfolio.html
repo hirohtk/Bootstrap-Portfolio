@@ -3,78 +3,156 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <title>Kensen's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <STYLE>A {text-decoration: none;} </STYLE>
-    
+    <STYLE>
+        A {
+            text-decoration: none;
+        }
+    </STYLE>
+
 </head>
 
 <body>
-    <!-- googled how to do the above-->
+    <div class="navWrapper">
+        <div class="container">
 
-    <header>
-        <div id="HeaderBackground">
-            <div class="containerTop">
-                <div id="NameBox"><b>Kensen Hirohata</b>
+            <nav class="navbar navbar-expand-md navbar-dark" style="height: 4rem; width:100%">
+                <a class="navbar-brand" href="#">Kensen Hirohata</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-                <div id="LinksBox">
-                    <a class="GrayLinks" href="index.html">About | </a>
-                    <a class="GrayLinks" href="portfolio.html"> Portfolio | </a>
-                    <a class="GrayLinks" href="contact.html"> Contact</a>
+
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div id="containerBottom">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Portfolio</h1>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="pseudoHR"></div>
+                            <div class="row">
+                                <div class="col-4">
+
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="assets/images/1.jpg" class="card-img-top thumbnails" alt="...">
+                                        <div class="card-body">
+                                         
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-4">
+
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="assets/images/2.jpg" class="card-img-top thumbnails" alt="...">
+                                            <div class="card-body">
+                                              
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="assets/images/3.jpg" class="card-img-top thumbnails" alt="...">
+                                        <div class="card-body">
+                                          
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-4">
+
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="assets/images/4.jpg" class="card-img-top thumbnails" alt="...">
+                                            <div class="card-body">
+                                              
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="assets/images/5.jpg" class="card-img-top thumbnails" alt="...">
+                                        <div class="card-body">
+                                          
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- It seems like it's better to not use p when you 
-        don't have to, essentially just use div.  Else the margins
-        get all screwy-->
-    </header>
+    </div>
+    </div>
     </div>
 
-    
-
-    <div class="containerBottom">
-        <section id="sectionBox">
-
-            <h1>Portfolio</h1>
-            <hr>
-            <div class="thumbnailContainer">
-                <img class="thumbnails" src="assets/images/1.jpg">
-                <div id="thumbnailBox1">
-                    <a id="WhiteLinks" href="https://google.com/webhp?complete=0&hl=en">Hangman</a>
-                </div>
-                <img class="thumbnails" src="assets/images/2.jpg">
-                <div id="thumbnailBox2">
-                    <a id="WhiteLinks" href="https://google.com/webhp?complete=0&hl=en">RPG Game</a>
-                </div>
-                <br>
-                <img class="thumbnails" src="assets/images/3.jpg">
-                <div id="thumbnailBox3">
-                    <a id="WhiteLinks" href="https://google.com/webhp?complete=0&hl=en">Trivia Game</a>
-                </div>
-                <img class="thumbnails" src="assets/images/4.jpg">
-                <div id="thumbnailBox4">
-                    <a id="WhiteLinks" href="https://google.com/webhp?complete=0&hl=en">Rutgers Info Widget</a>
-                </div>
-                <br>
-                <img class="thumbnails" src="assets/images/5.jpg">
-                <div id="thumbnailBox5">
-                    <a id="WhiteLinks" href="https://google.com/webhp?complete=0&hl=en">Rock Paper Scissors</a>
-                </div>
-            </div>
+    <div class="thumbnailContainer">
+        <img class="thumbnails" src="assets/images/1.jpg">
+        <div id="thumbnailBox1">
+            <a id="WhiteLinks"
+                href="https://google.com/webhp?complete=0&hl=en">Hangman</a>
+        </div>
+        <img class="thumbnails" src="assets/images/2.jpg">
+        <div id="thumbnailBox2">
+            <a id="WhiteLinks" href="https://google.com/webhp?complete=0&hl=en">RPG
+                Game</a>
+        </div>
+        <br>
+        <img class="thumbnails" src="assets/images/3.jpg">
+        <div id="thumbnailBox3">
+            <a id="WhiteLinks" href="https://google.com/webhp?complete=0&hl=en">Trivia
+                Game</a>
+        </div>
+        <img class="thumbnails" src="assets/images/4.jpg">
+        <div id="thumbnailBox4">
+            <a id="WhiteLinks" href="https://google.com/webhp?complete=0&hl=en">Rutgers
+                Info Widget</a>
+        </div>
+        <br>
+        <img class="thumbnails" src="assets/images/5.jpg">
+        <div id="thumbnailBox5">
+            <a id="WhiteLinks" href="https://google.com/webhp?complete=0&hl=en">Rock
+                Paper Scissors</a>
+        </div>
     </div>
 
 
-
-
-
-    </section>
-    </div>
-
-
-    <footer>
-        <br><b>Copyright©</b>
+    <footer class="footer">
+        <div class="footer text-center py-3">©Copyright
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
