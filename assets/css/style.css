@@ -59,9 +59,23 @@ h1 {
     color: #4aaaa5;
     margin-left: 1.5%;
     margin-top: 16px;
-    
-    
-    
+}
+
+#portfolioButtons {
+    width: 100%;
+
+}
+
+.card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    bottom: 100px;
+}
+
+.card {
+    border: 0px;
+    margin-left: 3rem;
 }
 
 /*#NameBox {
@@ -187,7 +201,7 @@ input {
     min-width: 918px;
 }
 
-.btn {
+#submitButton {
     width:15%;
     height:40px;
     background-color: #4aaaa5;
@@ -198,7 +212,18 @@ input {
     margin-left: 5%;
 }
 
-.btn:hover {
+#submitButton:hover {
+    background: goldenrod;
+    transition: 0.5s;
+}
+
+#portfolioButtons {
+    background-color: #4aaaa5;
+    position:relative;
+    width: 
+}
+
+#portfolioButtons:hover {
     background: goldenrod;
     transition: 0.5s;
 }
