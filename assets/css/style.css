@@ -70,6 +70,8 @@ h2 {
     padding-right: 0px;
     position: relative;
     bottom: 100px;
+    width: 16rem;
+    
 }
 
 .card {
@@ -182,7 +184,7 @@ input {
 #portfolioButtons {
     background-color: #4aaaa5;
     position:relative;
-    width: 20rem;
+    width: 16rem;
     border: 0px;
 }
 
@@ -195,8 +197,8 @@ input {
 /* Portfolio CSS */
 
 .thumbnails {
-    width: 20rem;
-    height: 20rem;
+    width: 16rem;
+    height: 16rem;
 }
 
 
