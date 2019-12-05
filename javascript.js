@@ -20,7 +20,7 @@ $(".btn").on("click", function (event) {
             $("#guide-modal").modal();
             $("#projectTitle").text(specificAssignment);
             $("#repo").html("<a href='https://github.com/hirohtk/burger'> GitHub Repository </a>")
-            $("#deployed").html("<a href=https://peaceful-badlands-20443.herokuapp.com/> Deployed Application </a>")
+            $("#deployed").html("<a href='https://peaceful-badlands-20443.herokuapp.com/'> Deployed Application </a>")
 
             break;
 
